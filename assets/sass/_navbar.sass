@@ -1,0 +1,53 @@
+nav.navbar
+  background-color: #fff
+  // box-shadow: none
+  position: fixed
+  z-index: 100
+  top: 0
+  .brand-logo
+    img
+      height: 50px
+      height: 120px
+      transform: translateY(-30px)
+      @media #{$small-and-down}
+        height: 80px
+        transform: translate(-35px,-12.5px)
+  .menu
+    z-index: 101
+    color: #acaaaa
+  ul.links
+    list-style: none
+    padding: 0
+    display: flex
+    justify-content: flex-end
+    li.link,a
+      cursor: pointer
+      color: #acaaaa
+      position: relative
+      font-family: Roboto Mono
+      padding: 0 10px
+      font-size: 1em
+      flex-direction: row-reverse
+      &:after
+        transition: all 0.3s ease
+        content: ""
+        width: 0
+        height: 2px
+        position: absolute
+        left: 50%
+        bottom: 0px
+        background-color: #008cff
+      &.active
+        color: #8a8a8a
+        background-color: #fff
+        &:after
+          width: 100%
+          left: 0
+      &:hover
+        background-color: #fff
+        color: #8a8a8a
+        &:after
+          width: 100%
+          left: 0
+
+
