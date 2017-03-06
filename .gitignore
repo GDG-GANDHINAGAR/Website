@@ -88,3 +88,4 @@ jspm_packages
 
 # dotenv environment variables file
 .env
+.DS_Store
