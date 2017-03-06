@@ -1,0 +1,179 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset="utf-8")
+    title GDG Gandhinagar
+    meta(name="description", content="the official website of GDG Gandhinagar")
+    meta(name="author", content="parth_jansari")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name='keywords', content='GDG, GANDHINAGAR, GDG Gandhinagar, Google Developers Group Gandhinagar')
+    meta(name='description', content="Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology; everything from the Android, Chrome, Drive, and Google Cloud platforms, to product APIs like the Cast API, Maps API, and YouTube API. A GDG can take many forms -- from just a few people getting together to watch our latest video, to large gatherings with demos and tech talks, to events like code sprints and hackathons.However, at the core, GDGs are focused on developers and technical content, and the core audience should be developers.")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css")
+    link(rel="stylesheet", href="assets/css/style.min.css")
+    link(href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css" rel="stylesheet")
+    link(rel='apple-touch-icon', sizes='57x57', href='assets/img/apple-icon-57x57.png')
+    link(rel='apple-touch-icon', sizes='60x60', href='assets/img/apple-icon-60x60.png')
+    link(rel='apple-touch-icon', sizes='72x72', href='assets/img/apple-icon-72x72.png')
+    link(rel='apple-touch-icon', sizes='76x76', href='assets/img/apple-icon-76x76.png')
+    link(rel='apple-touch-icon', sizes='114x114', href='assets/img/apple-icon-114x114.png')
+    link(rel='apple-touch-icon', sizes='120x120', href='assets/img/apple-icon-120x120.png')
+    link(rel='apple-touch-icon', sizes='144x144', href='assets/img/apple-icon-144x144.png')
+    link(rel='apple-touch-icon', sizes='152x152', href='assets/img/apple-icon-152x152.png')
+    link(rel='apple-touch-icon', sizes='180x180', href='assets/img/apple-icon-180x180.png')
+    link(rel='icon', type='image/png', sizes='192x192', href='assets/img/android-icon-192x192.png')
+    link(rel='icon', type='image/png', sizes='32x32', href='assets/img/favicon-32x32.png')
+    link(rel='icon', type='image/png', sizes='96x96', href='assets/img/favicon-96x96.png')
+    link(rel='icon', type='image/png', sizes='16x16', href='assets/img/favicon-16x16.png')
+    link(rel='manifest', href='assets/img/manifest.json')
+    meta(name='msapplication-TileColor', content='#ffffff')
+    meta(name='msapplication-TileImage', content='/ms-icon-144x144.png')
+    meta(name='theme-color', content='#ffffff')
+
+  body
+    nav.navbar
+      .nav-wrapper
+        a.brand-logo
+          img(src="assets/img/logo.png", alt="")
+        a.menu.right(href="#" data-activates="mobile-demo" class="button-collapse") <i class="material-icons menu">menu</i>
+        ul.links.hide-on-med-and-down
+          li.link
+            a(href="#home") home
+          li.link
+            a(href="#intro") Intro
+          li.link
+            a(href="#vision") Vision
+          li.link
+            a(href="#partners") Partners
+          li.link
+            a(href="#event") Events
+          li.link
+            a(href="#team") Team
+          li.link
+            a(href="#join") Joins Us!
+    .wrapper
+      .home-wrapper#home
+        h1 Spreading love of opensource technologies
+        .bg-clr
+        .background-wrapper
+          //- include ./svg.html
+          .slides
+            img(src="assets/img/slide-2.jpg", alt="")
+            img(src="assets/img/slide-3.jpg", alt="")
+            img(src="assets/img/slide-4.jpg", alt="")
+            img(src="assets/img/slide-5.jpg", alt="")
+            img(src="assets/img/slide-6.jpg", alt="")
+            img(src="assets/img/slide-7.jpg", alt="")
+            img(src="assets/img/slide-8.jpg", alt="")
+            img(src="assets/img/slide-9.jpg", alt="")
+            img(src="assets/img/slide-10.jpg", alt="")
+      .intro-wrapper.content#intro
+        h1.title What is Google Developers Group?
+        .img-wrapper
+          img(src="assets/img/asset-1.png")
+        .sub-title -something you don't want to miss
+        .discription
+          p Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology; everything from the Android, Chrome, Drive, and Google Cloud platforms, to product APIs like the Cast API, Maps API, and YouTube API.
+          p A GDG can take many forms -- from just a few people getting together to watch our latest video, to large gatherings with demos and tech talks, to events like code sprints and hackathons.
+          p However, at the core, GDGs are focused on developers and technical content, and the core audience should be developers.
+      .vision-wrapper.content#vision
+        h1.title Vision
+        .sub-title -To explore the new heights of technology
+        .discription
+          p With the world becoming smarter and connected and technology being more sophisticated, computing technology is the latest buzz word which is set to play a defining role in the future. Computing Technology are expected to change the way we live our lives.
+          p We encourage and invite Technology Enthusiasts/ Developers/Designers /Interested Students/Professionals to be a part of this awesome community of like minded personalities and come up with innovative and futuristic product ideas, that is set to re-define the digital culture and people’s lives.
+      .partners-wrapper.content#partners
+        h1.title Partners
+        //- .sub-title -our f.r.i.e.n.d.s
+        .row
+          .card-wrapper
+            .col.s12.m6.l6
+              .card
+                img(src="assets/img/1947.jpg")
+            .col.s12.m6.l6
+              .card
+                img(src="assets/img/zyphr.svg")
+      .events-wrapper.content#events
+        h1.title Events
+        .sub-title Upcoming Events
+        .row
+          .event-card-wrapper
+            .col.s12.m6.l3
+              .card
+                .card-image
+                  img(src="assets/img/cnext.png", alt="")
+                  a.btn-floating.halfway-fab.waves-effect.waves-light.red(href="https://docs.google.com/forms/d/e/1FAIpQLSdukvDP2aXyKGwdd8YEtYKe1aiZ-_y6gTr0R8vz19qRwl0jSg/viewform?c=0&w=1"  target="_blank")
+                    i.material-icons link
+                .card-title Google Cloud Next Extended
+                .card-content Get new ideas. Learn from industry experts. Engage with peers.
+      .team-wrapper.content#team
+        h1.title Team
+        //- .sub-title "-To help us help you"
+        .row.swiper-container
+          .team-card-wrapper.swiper-wrapper
+            .col.s12.m6.l3.swiper-slide
+              .card
+                img(src="assets/img/profile-1.JPG")
+              p.name Jignasha Kakkad
+            .col.s12.m6.l3.swiper-slide
+              .card
+                img(src="assets/img/profile-2.jpg")
+              p.name Nishant Contracter
+            .col.s12.m6.l3.swiper-slide
+              .card
+                img(src="assets/img/profile-5.jpg")
+              p.name Mayur Akabari
+            .col.s12.m6.l3.swiper-slide
+              .card
+                img(src="assets/img/profile-3.jpg")
+              p.name Smit Tkakkar
+            .col.s12.m6.l3.swiper-slide
+              .card
+                img(src="assets/img/profile-4.jpg")
+              p.name Parth Jansari
+          .swiper-pagination(style="bottom:0")
+          .swiper-button-prev.hide-on-small-and-down(style="margin-top:-60px")
+          .swiper-button-next.hide-on-small-and-down(style="margin-top:-60px")
+      .join-wrapper.content#join
+        h1.title Join us
+          //- .sub-title "-To help us help you"
+        .sub-title -To make a Unicorn ASAP!
+        .discription
+          p GDG is run by passionate individuals in the developer community and is a place to learn about Google Technologies and Tools for developers. Here you can see what local companies and developers are doing with these technologies. It is entirely focused on developers and educational technical content. It is open to the public with a public membership: A place to meet cool and smart people in technolog
+          .row(style="margin-top:50px")
+            .col.s12.m6.l3.offset-l2.center
+              a.waves-effect.waves-light.btn-large.bold.blue(href="https://docs.google.com/forms/d/e/1FAIpQLScZxDpC8-s9qsBB69VJCNyMpQuwbFyv06pby3gEvMc6MwBWnA/viewform?c=0&w=1" target="_blank" style="margin:10px auto;") Contributer  Form<i class="material-icons right">send</i>
+            .col.s12.m6.l3.center
+              a.waves-effect.waves-light.btn-large.bold.blue(href="https://docs.google.com/forms/d/e/1FAIpQLSeSraPa5qgniZ7R-CVWeYHmfZaG768BeiCyLKBZMeMuypPWLQ/viewform?c=0&w=1" target="_blank" style="margin:10px auto;") Join GDG<i class="material-icons right">send</i>
+            .col.s12.m6.l3.center
+              a.waves-effect.waves-light.btn-large.bold.blue(href="https://docs.google.com/forms/d/e/1FAIpQLSdW7pxoQQltF_9jtpoa5BOJhnDCQdD0_9-mAwjSPsfwxAI3kg/viewform?c=0&w=1" target="_blank" style="margin:10px auto;") Mentor Form<i class="material-icons right">send</i>
+      footer.page-footer.blue
+        .container
+          .row
+            .col.l4.s12
+              img(src="assets/img/logo.png", alt="" style="width:300px")
+            .col.l4.s12
+              .white-text We have a slack set up where you can talk directly with us. Come in and discuss new events, future goals, general problems or questions, or anything else you can think of.
+              a.waves-effect.waves-light.btn-large.bold.blue(href="https://docs.google.com/forms/d/e/1FAIpQLSeSraPa5qgniZ7R-CVWeYHmfZaG768BeiCyLKBZMeMuypPWLQ/viewform?c=0&w=1" target="_blank" style="margin:10px auto;") Request Slack Invite<i class="material-icons right">send</i>
+            .col.l2.offset-l2.s12
+              h5.white-text Links
+              ul
+                li
+                  a.grey-text.text-lighten-3(href="https://www.facebook.com/GDGGandhinagar/") FaceBook
+                li
+                  a.grey-text.text-lighten-3(href="https://twitter.com/GDGGandhinagar") Twitter
+                li
+                  a.grey-text.text-lighten-3(href="https://github.com/GDG-GANDHINAGAR") Github
+        .footer-copyright
+          .container © 2016 GDG Gandhinagar
+
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js")
+    //- script(src="assets/js/drawsvg.min.js")
+    //- script(src="assets/js/svg.js")
+    script(src="assets/js/scroll_knight.js")
+    script(src="assets/js/app.js")
