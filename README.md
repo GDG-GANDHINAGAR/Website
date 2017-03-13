@@ -1,4 +1,4 @@
-GDG Gandhinagar Website
+GDG Gandhinagar Website ![build status](https://travis-ci.org/GDG-GANDHINAGAR/Website.svg?branch=master)
 =============================
 
 Setup:
