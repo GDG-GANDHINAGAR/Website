@@ -1,4 +1,7 @@
  # .travis.yml
+language: node_js
+node_js:
+  - "6.9"
 script:
   - bash ./scripts/deploy-to-gh-pages.sh
 env:
