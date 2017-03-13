@@ -6,7 +6,7 @@ script:
   - bash ./scripts/deploy-to-gh-pages.sh
 env:
   global:
-    - GITHUB_REPO: "https://github.com/gdg-gandhinagar/Website"
+    - GITHUB_REPO: "gdg-gandhinagar/Website"
     - secure: "oiwIJBiBZ1qN3sfJQPrRIdjb3RNNicHn76IqeEXxa5r5YcczqwPSl1KP9E2FtnDNcGKBHo43ActKXIdTAMULjJ9XpCa
 UUrI8Nt1kQv5wbI7IzRigtsxtx9r0Dev9Lwze4X1tz7kpEEhuGcpFzpO3UXOHiYX9fqH9t47oLbt8YUN134zYRDTKXdZp+tdb7Dd4W
 IcQAY5qX8Yjiu0QTWLzVa/fK8QlbDWzxcFVgg7YrjJtnkQHpJzGJafikpxkoavUBS0iDV7lBpRNGN7qAu1tVf7nHreVmlZnwK265ki
