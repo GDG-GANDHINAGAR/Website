@@ -94,6 +94,11 @@ gulp.task('default', function() {
     gulp.start('styles', 'templates', 'scripts', 'images', 'watch');
 });
 
+gulp.task('build', function() {
+    gulp.start('styles', 'templates', 'scripts', 'images');
+});
+
+
 gulp.task('watch', function() {
     gulp.watch('assets/sass/**/*', ['styles']);
     gulp.watch(['pugfiles/**/*.pug', './*.pug'], ['templates']);

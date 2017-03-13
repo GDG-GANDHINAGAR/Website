@@ -10,10 +10,11 @@ git config --global user.email "nobody@nobody.org"
 git config --global user.name "Travis CI"
 
 # build (CHANGE THIS)
-make
+npm install
+gulp build
 
 # deploy
-cd public
+cd build
 git init
 git add .
 git commit -m "Deploy to Github Pages"
