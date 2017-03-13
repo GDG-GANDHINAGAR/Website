@@ -10,7 +10,6 @@ git config --global user.email "nobody@nobody.org"
 git config --global user.name "Travis CI"
 
 # build (CHANGE THIS)
-npm install
 gulp build
 
 # deploy
