@@ -14,6 +14,8 @@ gulp build
 
 # deploy
 cd build
+touch CNAME
+echo "gdggandhinagar.org" > CNAME
 git init
 git add .
 git commit -m "Deploy to Github Pages"
